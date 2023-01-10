@@ -12,16 +12,6 @@ n.set("") #default length is 0
 
 
 def generate():
-    """ Generates a password of length n 
-
-    Arguments:
-        n (integer): the length of the password to generate.
-
-    Returns:
-        secure_password (string): a Secure password of length n. 
-    """
-    # used code and information on string generation and password generation from 
-    # https://pynative.com/python-generate-random-string/#h-create-random-password-with-special-characters-letters-and-digits
 
     # creates 4 lists which each contain a specific type of required character
     upperlist = list(string.ascii_uppercase)
@@ -42,7 +32,7 @@ def generate():
         
     
     # characters of generated password is then shuffled in order another layer of randomness
-    genpasslist=list(genpass)  # line 57-59 directly taken from https://pynative.com/python-generate-random-string/#h-create-random-password-with-special-characters-letters-and-digits
+    genpasslist=list(genpass)  
     random.shuffle(genpasslist)
     genpassfinal=''.join(genpasslist)
     global password
