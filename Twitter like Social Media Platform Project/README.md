@@ -47,3 +47,11 @@ This project is a social media platform developed in Python with SQLite as the d
 ### 4. Usage:
 
 - Follow the command line prompts to navigate through the application.
+
+## Acknowledgemnts
+Collaborated with 3 other people to build this project
+
+### Team Members
+- Ruchali Aery
+- Francis Garcia
+- Ayra Qutub
