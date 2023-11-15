@@ -29,3 +29,21 @@ This project is a social media platform developed in Python with SQLite as the d
 ### 6. Retweets:
 
 - Users can retweet (repost) tweets to share them with their followers.
+
+## Getting Started
+
+### 1. Installation:
+
+- Clone the repository to your local machine.
+- Install the required dependencies
+### 2. Datsbase Setup:
+
+- Ensure you have SQLite installed.
+- create a database using the schema provided or use the included databse in the repository
+### 3. Run the application:
+
+- Execute the main script: 'python main.py'
+
+### 4. Usage:
+
+- Follow the command line prompts to navigate through the application.
