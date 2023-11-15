@@ -1,4 +1,4 @@
-# Twiiter like Social Media Platform
+# Twitter like Social Media Platform
 
 ## Overview
 
